@@ -12,6 +12,8 @@ Die Lüfter werden abhängig von der gemessenen Temperatur per PWM geregelt. Zie
 
 Zusätzlich werden die Betriebsdaten per **MQTT** an Home Assistant übertragen.
 
+<img width="337" height="483" alt="image" src="https://github.com/user-attachments/assets/fa573bab-2795-4de2-bbff-6dba887be3d4" />
+
 ## Hardware
 
 - ESP8266 / NodeMCU
@@ -20,6 +22,12 @@ Zusätzlich werden die Betriebsdaten per **MQTT** an Home Assistant übertragen.
 - 12-kΩ-NTC
 - 12-V-Versorgung
 - 12-V → 3,3-V Buck-Converter für den ESP8266
+
+<img width="771" height="602" alt="image" src="https://github.com/user-attachments/assets/c8a07791-e3e3-49d3-ad8f-b8796060ad18" />
+
+Aufgebaut ist die Hardware auf einer Lochrasterplatine. Die Anschlüsse wurden mit Klemmblöcken realisiert.
+
+![Ohne ESP](/Bilder/ohne-ESP.jpg) ![Mit ESP](/Bilder/mit-ESP.jpg)
 
 ## Messwerte
 
